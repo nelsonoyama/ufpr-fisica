@@ -1,19 +1,19 @@
-\section{Exercício 2.1}
-\paragraph{Usar o axioma do Par para definir outro exemplo de conjunto.}
 
+\paragraph{Usar o axioma do Par para definir outro exemplo de conjunto.}
 \begin{quote}
-	Axioma Par: $\forall$\textit{x}$\forall$\textit{y}$\exists$\textit{z}$\forall$\textit{t}(\textit{t} $\in$ \textit{z} $\Leftrightarrow$ (\textit{t} = \textit{x} $\lor$ \textit{t} = \textit{y}))
+	Axioma par: $\forall$\textit{x}$\forall$\textit{y}$\exists$\textit{z}$\forall$\textit{t}(\textit{t} = \textit{x} $\lor$ \textit{t} = \textit{y}))
 	\newline
 	Usando o emprego de definições explícitas abreviativas na linguagem \textfrak{S}, temos:
 	\newline
-	\textit{z} = \{\textit{x},\textit{y}\} \vdots\;$\forall$\textit{t}(\textit{t} $\in$ \textit{z} $\Leftrightarrow$ (\textit{t} = \textit{x} $\lor$ \textit{t} = \textit{y}))	
+	\textit{z} =\{{\textit{x},\textit{y}}\}  \vdots \, $\forall$\textit{t}(\textit{t} = \textit{x} $\lor$ \textit{t} = \textit{y}))
+	\newline
+	Os axiomas Extensionalidade e Vazio, respectivamente $\forall$\textit{x}$\forall$\textit{y}$\forall$\textit{z}((\textit{z} $\in$ \textit{x} $\Leftrightarrow$ \textit{z} $\in$ \textit{y}) $\Rightarrow$  \textit{x} = \textit{y}) e $\exists$\textit{x}$\forall$\textit{z}(\textit{z} $\notin$ \textit{x}) permitem a demonstração do Teorema: O conjunto \textit{x} do axioma Vazio é único. Utilizando esse axioma podemos escrever \textit{x} = $\emptyset$ e \textit{y} = $\emptyset$, logo \textit{z} = \{$\emptyset$\}.
+	\newline
+	Se \textit{z} = \{$\emptyset$\}, podemos criar outro exemplo: \textit{x} = $\emptyset$ e \textit{y} = \{$\emptyset$\}, logo \textit{z} = \{$\emptyset$, \{$\emptyset$\}\}. Pelo axioma da Extensionalidade: \{$\emptyset$, \{$\emptyset$\}\} = \{\{$\emptyset$\}$, \emptyset$\}.
+
+	
 \end{quote}
-\subsection{Exemplo de conjunto}
-	Os axiomas Extensionalidade e Vazio, respectivamente $\forall$\textit{x}$\forall$\textit{y}$\forall$\textit{z}((\textit{z} $\in$ \textit{x} $\Leftrightarrow$ \textit{z} $\in$ \textinit{y}) $\Rightarrow$ \textit{x} = \textit{y})  e $\exists$\textit{x}$\forall$\textit{z}(\textit{z} $\notin$ \textit{x}) permitem a demonstração do Teorema: \textit{O conjunto x do axioma Vazio é único}.
-	Utilizando esse axioma podemos escrever \textit{x} = $\emptyset$  e \textit{y} = $\emptyset$, logo \textit{z} = \{$\emptyset$\}. 
-	\newline
-	Se \textit{z} = \{$\emptyset$\}, podemos criar outro exemplo: \textit{x} = $\emptyset$  e \textit{y} = \{$\emptyset$\}, então teremos \textit{z} = \{$\emptyset$\ , \{$\emptyset$\}\}. Pelo axioma da Extensionalidade \{$\emptyset$\ , \{$\emptyset$\}\} = \{\{$\emptyset$\} , $\emptyset$\}.
-	\newline
-	Outros exemplos usando essa lógica \textit{x} = \{$\emptyset$\}  e \textit{y} = \{$\emptyset$\}, nesse caso teremos  \textit{z} = \{\{$\emptyset$\} , \{$\emptyset$\}\};
-	\newline
-	\textit{x} = \{\{$\emptyset$\} , \{$\emptyset$\}\}  e \textit{y} = $\emptyset$, nesse caso teremos  \textit{z} = \{\{\{$\emptyset$\} , \{$\emptyset$\}\}\ , $\emptyset$\}.
+\subsection{outro exemplo de conjunto}
+
+Se  \textit{x} = \{$\emptyset$\} e \textit{y} = \{$\emptyset$\}, \textit{z} = \{\{$\emptyset$\}, \{$\emptyset$\}\}. A utilização desses axiomas permite criar uma infinidade de conjuntos: \textit{z} = \{\{\{$\emptyset$\}, \{$\emptyset$\}\}, $\emptyset$\}, \textit{z} = \{\{\{$\emptyset$\}, \{$\emptyset$\}\}, \{$\emptyset$\}\}, etc.
+

@@ -1,32 +1,35 @@
-\section{Exercício 1.5}
-\paragraph{Escrever novos exemplos de duas sentenças de S que são fórmulas e de duas sentenças que não são fórmulas. Cada exemplo deve ser justificado de forma circunstanciada.}
 
+\paragraph{Escrever novos exemplos de duas sentenças de \textfrak{S} que são fórmulas e de duas sentenças que	não são fórmulas. Cada exemplo deve ser justificado de forma circunstanciada.}
 \begin{quote}
-	Sintaxe de 	\textfrak{S}:
+	Sintaxe de \textfrak{S}:
 	\begin{enumerate}[label=\roman*., itemsep=0pt, topsep=0pt]
-		\item Se \textit{u} e \textit{v} são termos de	\textfrak{S}, então \textit{u} = \textit{v} e \textit{u} $\in$ \textit{v} são \textit{fórmulas atômicas} de \textfrak{S}.
-		\item Toda fórmula atômica de \textfrak{S} é \textit{fórmula} de \textfrak{S}.
-		\item Se $\mathcal{A}$ e $\mathcal{B}$ são fórmulas de \textfrak{S} e \textit{u} é uma variável, então as sentenças $\neg$($\mathcal{A}$), ($\mathcal{A}$ $\land$ $\mathcal{B}$), ($\mathcal{A}$ $\lor$ $\mathcal{B}$), ($\mathcal{A}$ $\Rightarrow$ $\mathcal{B}$), ($\mathcal{A}$ $\Leftrightarrow$ $\mathcal{B}$), $\forall$\textit{u}($\mathcal{A}$), $\exists$\textit{u}($\mathcal{A}$) são fórmulas de \textfrak{S}.
+		\item Se \textit{u} e \textit{v} são termos de \textfrak{S}, então \textit{u} = \textit{v}
+		e \textit{u} $\in$ \textit{v} são fórmulas atômicas de \textfrak{S}.
+		\item Toda fórmula atômica de \textfrak{S} é fórmula de \textfrak{S}.
+		\item Se $\mathcal{A}$ e $\mathcal{B}$ são fórmulas de \textfrak{S} e \textit{u} é uma variável, então as sentenças: $\lnot$($\mathcal{A}$), ($\mathcal{A}$ $\land$ $\mathcal{B}$), ($\mathcal{A}$ $\lor$ $\mathcal{B}$), \newline($\mathcal{A}$ $\Rightarrow$ $\mathcal{B}$), ($\mathcal{A}$ $\Leftrightarrow$ $\mathcal{B}$), $\forall$\textit{u}($\mathcal{A}$), $\exists$\textit{u}($\mathcal{A}$) são fórmulas de \textfrak{S}.
 		\item Apenas as sentenças de \textfrak{S} que seguem os itens acima são fórmula de \textfrak{S}.
 	\end{enumerate}
 \end{quote}
 
 \subsection{primeira fórmula}
-{$\forall$\textit{x}(\textit{x} = $\omega$)}
+$\forall$\textit{x}(\textit{x} = $\omega$)
 \newline
-\textit{x} é uma abreviação de variável e $\omega$ é uma constante; logo, \textit{x} e $\omega$ são termos. O item I da sintaxe \textfrak{S} garante que \textit{x} = $\omega$ é uma fórmula atômica. O item II enuncia que toda fórmula atômica é fórmula de \textfrak{S}. A sentença $\forall$\textit{u}($\mathcal{A}$) é fórmula de \textfrak{S}(item III), então {$\forall$\textit{x}(\textit{x} = $\omega$)} também é fórmula de \textfrak{S}. O item IV conclui que as sentenças de \textfrak{S} que seguem os itens I, II, III são fórmulas de \textfrak{S}; logo, \newline{$\forall$\textit{x}(\textit{x} = $\omega$)} é fórmula de \textfrak{S}.
+\textit{x} é uma abreviação de variável e $\omega$ é uma constante; logo, \textit{x} e $\omega$ são termos. O item I da sintaxe \textfrak{S}
+garante que \textit{x} = $\omega$ é uma fórmula atômica. O item II enuncia que toda fórmula atômica é fórmula de \textfrak{S}.
+A sentença $\forall$\textit{u}($\mathcal{A}$) é fórmula de \textfrak{S}(item III), então $\forall$\textit{x}(\textit{x} = $\omega$) também é fórmula de \textfrak{S}. O item IV conclui que as sentenças de \textfrak{S} que seguem os itens I, II, III são fórmulas de \textfrak{S}; logo,
+$\forall$\textit{x}(\textit{x} = $\omega$) é fórmula de \textfrak{S}.
 
 \subsection{segunda fórmula}
-{$\exists$\textit{$x_1$}(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$($x_2$ = \textit{$x_3$}}))
+$\exists$\textit{$x_1$}(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$(\textit{$x_1$} = \textit{$x_3$}))
 \newline
-\textit{$x_1$}, \textit{$x_2$} e \textit{$x_3$} são váriaveis; logo, são termos. O item I da sintaxe \textfrak{S} garante que \textit{$x_1$} $\in$ \textit{$x_2$} e $x_2$ = \textit{$x_3$} são fórmulas atômicas(item II), portanto são fórmulas de \textfrak{S}. No item III temos:  $\neg$($\mathcal{A}$), ($\mathcal{A}$ $\land$ $\mathcal{B}$) e  $\forall$\textit{u}($\mathcal{A}$); então $\lnot$($x_2$ = \textit{$x_3$}), \newline(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$($x_2$ = \textit{$x_3$}) e {$\exists$\textit{$x_1$}(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$($x_2$ = \textit{$x_3$}})) são fórmulas de \textfrak{S}. O item IV conclui que as sentenças de \textfrak{S} que seguem os itens I, II, III são fórmulas de \textfrak{S}; logo,  {$\exists$\textit{$x_1$}(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$($x_2$ = \textit{$x_3$}})) é fórmula de \textfrak{S}.
+\textit{$x_1$}, \textit{$x_2$} e \textit{$x_3$} são variáveis; logo, são termos. O item I da sintaxe \textfrak{S} garante que \textit{$x_1$} $\in$ \textit{$x_2$} e \textit{$x_2$} = \textit{$x_3$} são fórmulas atômicas (item II), portanto são fórmulas de \textfrak{S}. No item III temos: $\lnot$($\mathcal{A}$), ($\mathcal{A}$ $\land$ $\mathcal{B}$) e $\forall$\textit{u}($\mathcal{A}$); então $\lnot$(\textit{$x_1$} = \textit{$x_3$}), (\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$(\textit{$x_1$} = \textit{$x_3$}) e $\exists$\textit{$x_1$}(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$(\textit{$x_1$} = \textit{$x_3$})) são fórmulas de \textfrak{S}; logo \newline$\exists$\textit{$x_1$}(\textit{$x_1$} $\in$ \textit{$x_2$} $\land$ $\lnot$(\textit{$x_1$} = \textit{$x_3$})) é fórmula de \textfrak{S}.
 
 \subsection{primeira sentença que não é fórmula}
-{$\exists$$\forall$\textit{x}(\textit{x} = \textit{y})}
+$\exists$$\forall$\textit{x}(\textit{x} = \textit{y})
 \newline
-Apesar de \textit{x} = \textit{y} ser uma fórmula atômica, a sentença {$\exists$$\forall$\textit{x}(\textit{x} = \textit{y})} não é fórmula, pois o item III da definição requer que o quantificador $\exists$ tenha uma variável imediatamente à direita.
+Apesar de \textit{x} = \textit{y} ser uma fórmula atômica, a sentença $\exists$$\forall$\textit{x}(\textit{x} = \textit{y}) não é fórmula, pois o item III da definição requer que o quantificador $\exists$ tenha uma variável imediatamente à direita.
 
 \subsection{segunda sentença que não é fórmula}
-{$\exists$\textit{x} $\lor$ $\exists$\textit{y}$\forall$\textit{x}(\textit{x} $\in$ \textit{y})}
+$\exists$\textit{x} $\lor$ $\exists$\textit{y}$\forall$\textit{x}(\textit{x} $\in$ \textit{y})
 \newline
-O item III da definição de fórmula exige que $\exists$\textit{x} seja seguido de uma sentença $\mathcal{A}$, assim como em $\exists$\textit{y}$\forall$\textit{x}(\textit{x} $\in$ \textit{y}), em que $\mathcal{A}$ é fórmula - descrito no item III como $\exists$\textit{u}($\mathcal{A}$). No caso da sentença $\lor$ $\exists$\textit{y}$\forall$\textit{x}(\textit{x} $\in$ \textit{y}), o conectivo lógico $\lor$(disjunção) é o elemento que impede a classificação da sentença como fórmula.
+O item III da definição de fórmula exige que $\exists$\textit{x} seja seguido de uma sentença $\mathcal{A}$, assim como em $\exists$\textit{y}$\forall$\textit{x}(\textit{x} $\in$ \textit{y}), onde $\mathcal{A}$ é fórmula - descrito no item III como $\exists$\textit{u}($\mathcal{A}$). No caso da sentença , o conectivo lógico $\lor$(disjunção) é o elemento que impede a classificação da sentença como fórmula.
