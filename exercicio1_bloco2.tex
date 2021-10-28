@@ -1,0 +1,58 @@
+\doublespacing
+(i)Sabendo que co-seno é uma função \textit{y} :  $\mathbb{R}$ $\rightarrow$  $\mathbb{R}$ tal que \textit{y''(x)} + \textit{y(x)} = 0, \textit{y(0)} = 1 e
+\textit{y'(0)} = 0, provar que cos(\textit{x}) = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ..., onde cos(\textit{x}) = y(\textit{x}). (ii) Provar que $\frac{dy}{dx}$sen(\textit{x}) = cos(\textit{x}). (iii) Provar que $\frac{dy}{dx}$cos(\textit{x}) = -sen(\textit{x}).
+
+
+\subsection{Sabendo que co-seno é uma função \textit{y} :  $\mathbb{R}$ $\rightarrow$  $\mathbb{R}$ tal que \textit{y''(x)} + \textit{y(x)} = 0, \textit{y(0)} = 1 e
+	\textit{y'(0)} = 0, provar que cos(\textit{x}) = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ..., onde cos(\textit{x}) = y(\textit{x}).}
+
+Se existir série de potências para representar \textit{y}, temos o seguinte:
+\newline
+\textit{y(x)} = ${a_0}$ + ${a_1}$${x}$ + ${a_2}$${x^2}$ + ${a_3}$${x^3}$ + ${a_4}$${x^4}$ + ${a_5}$${x^5}$ + ${a_6}$${x^6}$ + ${a_7}$${x^7}$ + ...
+\newline
+\textit{y'(x)} = ${a_1}$ + 2${a_2}$${x}$ +3${a_3}$${x^2}$ + 4${a_4}$${x^3}$ + 5${a_5}$${x^4}$ + 6${a_6}$${x^5}$ +7${a_7}$${x^6}$ + 8${a_7}$${x^7}$ +...
+\newline
+\textit{y''(x)} = 2${a_2}$ +3.2${a_3}$${x}$ + 4.3${a_4}$${x^2}$ + 5.4${a_5}$${x^3}$ + 6.5${a_6}$${x^4}$ +7.6${a_7}$${x^5}$ + 8.7${a_7}$${x^6}$ +...
+\newline
+Sabemos que \textit{y''(x)} + \textit{y(x)} = 0, então \textit{y''(x)} = -\textit{y(x)}
+\newline
+-\textit{y(x)} = -${a_0}$ - ${a_1}$${x}$ - ${a_2}$${x^2}$ - ${a_3}$${x^3}$ - ${a_4}$${x^4}$ - ${a_5}$${x^5}$ - ${a_6}$${x^6}$ - ${a_7}$${x^7}$ - ...
+\newline
+Logo, ${a_2}$ = $\frac{-{a_0}}{2}$, ${a_3}$ = $\frac{-{a_1}}{3.2}$, ${a_4}$ = $\frac{-{a_2}}{4.3}$ = $\frac{{a_0}}{4.3.2}$, ${a_5}$ = $\frac{-{a_3}}{5.4}$ = $\frac{{a_1}}{5.4.3.2}$, ...
+\newline
+Ou seja,  ${a_2}$ = ${a_2}$,  ${a_3}$ = $\frac{-{a_1}}{3.2}$,  ${a_4}$ = $\frac{{a_0}}{4.3.2}$,  ${a_5}$ = $\frac{{a_1}}{5.4.3.2}$,  ${a_6}$ = $\frac{-{a_0}}{6.5.4.3.2}$,  ${a_7}$ = $\frac{-{a_1}}{7.6.5.4.3.2}$ e assim por diante.
+\newline
+Temos que  \textit{y(0)} = 1 e \textit{y'(0)} = , então \textit{y(0)} = ${a_0}$ e \textit{y'(0) = ${a_1}$}. Logo, ${a_0}$ = 1 e ${a_1}$ = 0.  Logo, ${a_{impar}}$ = 0.
+\newline
+Substituindo, ${a_2}$ = $\frac{{-1}}{2}$, ${a_4}$ = $\frac{{1}}{4.3.2}$, ${a_6}$ = $\frac{{-1}}{6.5.4.3.2}$, ${a_8}$ = $\frac{{-1}}{8.7.6.5.4.3.2}$ e assim por diante.
+\newline
+Podemos escrever 0! = 1 e (\textit{n} + 1)! = (\textit{n} + 1)\textit{n}!, então,  ${a_2}$ = $\frac{{-1}}{2!}$, ${a_4}$ = $\frac{{1}}{4!}$, ${a_6}$ = $\frac{{-1}}{6!}$, ${a_8}$ = $\frac{{-1}}{8!}$
+\newline
+Logo, cos(\textit{x}) = \textit{y(x)} = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ...
+
+
+\subsection{Provar que $\frac{dy}{dx}$sen(\textit{x}) = cos(\textit{x}).}
+
+Sabemos que sen(\textit{x}) = \textit{x} - $\frac{x^3}{3!}$ + $\frac{x^5}{5!}$ - $\frac{x^7}{7!}$ + $\frac{x^9}{9!}$ - ..., ou seja $\sum_{n=0}^{\infty}$$(-1)^{n}$$\frac{x^{2n + 1}}{(2n + 1)!}$.
+\newline
+Se $\frac{dy}{dx}$sen(\textit{x}) = cos(\textit{x}), temos $\frac{dy}{dx}$sen(\textit{x}) = 1 - 3$\frac{x^2}{3!}$ + 5$\frac{x^4}{5!}$ - 7$\frac{x^6}{7!}$ + 9$\frac{x^8}{9!}$ - ... 
+\newline
+Temos: $\frac{dy}{dx}$sen(\textit{x}) = 1 - 3$\frac{x^2}{3.2}$ + 5$\frac{x^4}{5.4.3.2}$ - 7$\frac{x^6}{7.6.5.4.3.2}$ + 9$\frac{x^8}{9.8.7.6.5.4.3.2}$ - ...
+\newline
+Seguindo o desenvolvimento, $\frac{dy}{dx}$sen(\textit{x}) = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ...
+\newline
+Sabemos que cos(\textit{x}) = \textit{y(x)} = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ..., então concluímos que  $\frac{dy}{dx}$sen(\textit{x}) = cos(\textit{x}).
+
+\subsection{Provar que $\frac{dy}{dx}$cos(\textit{x}) = -sen(\textit{x}).}
+Sabemos que cos(\textit{x}) = \textit{y(x)} = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ...
+\newline
+$\frac{dy}{dx}$cos(\textit{x}) = 0 - 2$\frac{x}{2!}$ + 4$\frac{x^3}{4!}$ - 6$\frac{x^5}{6!}$ + 8$\frac{x^7}{8!}$ - ... 
+\newline
+$\frac{dy}{dx}$cos(\textit{x}) = -2$\frac{x}{2}$ + 4$\frac{x^3}{4.3.2}$ - 6$\frac{x^5}{6.5.4.3.2}$ + 8$\frac{x^7}{8.7.6.5.4.3.2}$ - ... 
+\newline
+$\frac{dy}{dx}$cos(\textit{x}) = -\textit{x} + $\frac{x^3}{3!}$ - $\frac{x^5}{5!}$ + $\frac{x^7}{7!}$ - ... 
+\newline
+Se sen(\textit{x}) = \textit{x} - $\frac{x^3}{3!}$ + $\frac{x^5}{5!}$ - $\frac{x^7}{7!}$ - ..., -sen(\textit{x}) = -\textit{x} + $\frac{x^3}{3!}$ - $\frac{x^5}{5!}$ + $\frac{x^7}{7!}$ - ...
+\newline
+Comparando os termos de $\frac{dy}{dx}$cos(\textit{x}) e -sen(\textit{x}) temos $\frac{dy}{dx}$cos(\textit{x}) = -sen(\textit{x}).
+

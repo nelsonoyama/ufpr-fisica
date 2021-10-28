@@ -1,0 +1,19 @@
+\documentclass[a4paper, openany]{book}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+
+\begin{document}
+	
+	\renewcommand{\contentsname}{Índice}
+	\addcontentsline{toc}{chapter}{Introdução}
+	\tableofcontents
+	\part{Primeira grande parte}
+	\chapter*{Introdução}
+		\lipsum
+	\include{testeparte1}
+
+	\appendix
+	\chapter{Conclusão}
+		\lipsum
+\end{document}
