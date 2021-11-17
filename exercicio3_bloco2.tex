@@ -1,0 +1,41 @@
+%\doublespacing
+Demonstrar o Teorema 37.
+\newline
+\textit{Teorema 37. sejam f e g funções integráveis em [a,b]. Logo,}\newline
+(\textit{i})$\int_{a}^{b}$\textit{(f + g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} + $\int_{a}^{b}$\textit{g(x)dx}\newline
+(\textit{ii})$\int_{a}^{b}$\textit{(f - g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} - $\int_{a}^{b}$\textit{g(x)dx}\newline
+(\textit{iii})$\int_{a}^{b}$\textit{c(f)(x)dx} = c$\int_{a}^{b}$\textit{f(x)dx}
+
+\subsection{(\textit{i})$\int_{a}^{b}$\textit{(f + g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} + $\int_{a}^{b}$\textit{g(x)dx}.}
+Na definição de integral de Riemann temos:\newline
+$\int_{a}^{b}$\textit{(f + g)(x)}\textit{dx}  = $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$(f + g)($z_i$)$\Delta$$x_i$ = $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$(f($z_i$) + g($z_i$))$\Delta$$x_i$\newline
+A multiplicação é distributiva e o somatório da soma é a soma dos somatórios, então temos: \newline
+$\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$(f($z_i$)$\Delta$$x_i$ + g($z_i$)$\Delta$$x_i$) = $\lim\limits_{||P||\rightarrow 0}$ ($\sum_{i}$ f($z_i$)$\Delta$$x_i$ + $\sum_{i}$ g($z_i$)$\Delta$$x_i$) = \newline
+Por fim temos novamente a definição de integral de Riemann:\newline
+$\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$ f($z_i$)$\Delta$$x_i$ + $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$ g($z_i$)$\Delta$$x_i$ = 
+$\int_{a}^{b}$\textit{f(x)dx} + $\int_{a}^{b}$\textit{g(x)dx}
+
+\subsection{(\textit{i})$\int_{a}^{b}$\textit{(f - g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} - $\int_{a}^{b}$\textit{g(x)dx}.}
+Na definição de integral de Riemann temos:\newline
+$\int_{a}^{b}$\textit{(f - g)(x)}\textit{dx}  = $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$(f - g)($z_i$)$\Delta$$x_i$ = $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$(f($z_i$) - g($z_i$))$\Delta$$x_i$\newline
+A multiplicação é distributiva e o somatório da diferença é a diferença dos somatórios, então temos: \newline
+$\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$(f($z_i$)$\Delta$$x_i$ - g($z_i$)$\Delta$$x_i$) = $\lim\limits_{||P||\rightarrow 0}$ ($\sum_{i}$ f($z_i$)$\Delta$$x_i$ - $\sum_{i}$ g($z_i$)$\Delta$$x_i$) \newline
+Por fim temos novamente a definição de integral de Riemann:\newline
+$\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$ f($z_i$)$\Delta$$x_i$ - $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$ g($z_i$)$\Delta$$x_i$ = 
+$\int_{a}^{b}$\textit{f(x)dx} - $\int_{a}^{b}$\textit{g(x)dx}
+
+
+\subsection{(\textit{ii})$\int_{a}^{b}$\textit{(f - g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} - $\int_{a}^{b}$\textit{g(x)dx}. Usando o teorema c$\int_{a}^{b}$\textit{f(x)dx}}
+Sabemos que: $\int_{a}^{b}$\textit{(f + g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} + $\int_{a}^{b}$\textit{g(x)dx} e $\int_{a}^{b}$\textit{c(f)(x)dx} = c$\int_{a}^{b}$\textit{f(x)dx} então \newline
+$\int_{a}^{b}$\textit{(f + (-1)g)(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} + $\int_{a}^{b}$(-1)\textit{g(x)dx} = $\int_{a}^{b}$\textit{f(x)dx} - $\int_{a}^{b}$\textit{g(x)dx}
+
+\subsection{(\textit{iii})$\int_{a}^{b}$\textit{c(f)(x)dx} = c$\int_{a}^{b}$\textit{f(x)dx}}
+Na definição de integral de Riemann temos:\newline
+$\int_{a}^{b}$\textit{c(f)(x)}\textit{dx}  = $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$c(f)($z_i$)$\Delta$$x_i$ \newline
+Como a constante é fator comum e a a multiplicação é distributiva temos: \newline
+$\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$c(f)($z_i$)$\Delta$$x_i$ = 
+$\lim\limits_{||P||\rightarrow 0}$ c$\sum_{i}$f($z_i$)$\Delta$$x_i$\newline
+O limite de produto é produto dos limites, então temos: \newline
+$\lim\limits_{||P||\rightarrow 0}$c$\sum_{i}$f($z_i$)$\Delta$$x_i$ = $\lim\limits_{||P||\rightarrow 0}$ c $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$ f($z_i$)$\Delta$$x_i$ \newline
+Limite de uma constante é a própria constante. Por fim temos novamente a definição de integral de Riemann:\newline
+$\lim\limits_{||P||\rightarrow 0}$ c $\lim\limits_{||P||\rightarrow 0}$ $\sum_{i}$ f($z_i$)$\Delta$$x_i$ = c $\int_{a}^{b}$\textit{f(x)dx}
