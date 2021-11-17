@@ -1,0 +1,42 @@
+\doublespacing
+Provar que sen($\beta$ - $\gamma$) = sen($\beta$) cos($\gamma$) - cos($\beta$) sen($\gamma$).
+
+\subsection{Provar que sen($\beta$ - $\gamma$) = sen($\beta$) cos($\gamma$) - cos($\beta$) sen($\gamma$).}
+%Teorema 34 .\textit{ O problema de contorno y' = y e y(0) = $\alpha$ tem solução única, se $\alpha$ $\geq$ 0}.
+De acordo com o Teorema de Euler, temos: 
+\newline
+exp(\textit{i$\beta$ - i$\gamma$}) = exp(\textit{i($\beta$ - $\gamma$)}) = cos($\beta$ - $\gamma$) + \textit{i}sen($\beta$ - $\gamma$).
+\newline
+No entanto,
+\newline
+exp(\textit{i$\beta$}) exp(\textit{-i$\gamma$}) = (cos($\beta$) + \textit{i}sen($\beta$)) (cos($\gamma$) - \textit{i}sen($\gamma$)) = \newline
+= cos($\beta$)cos($\gamma$) - cos($\beta$)isen($\gamma$) + isen($\beta$)cos($\gamma$) - isen($\beta$)isen($\gamma$) =\newline
+= cos($\beta$)cos($\gamma$) - cos($\beta$)isen($\gamma$) + isen($\beta$)cos($\gamma$) + sen($\beta$)sen($\gamma$)= \newline
+= cos($\beta$)cos($\gamma$) + sen($\beta$)sen($\gamma$) + i(sen($\beta$)cos($\gamma$) - cos($\beta$)isen($\gamma$))
+\newline
+Usando o teorema: Sejam $\alpha$ e $\beta$ números reais quaisquer. Logo, \textit{exp($\alpha$)exp($\beta$) = exp($\alpha$ + $\beta$).}
+\newline
+Uma vez que \textit{exp(\textit{i$\beta$ - i$\gamma$}) = exp(\textit{i$\beta$}) exp(\textit{-i$\gamma$})}, temos
+\newline
+cos($\beta$ - $\gamma$) + \textit{i}sen($\beta$ - $\gamma$) = cos($\beta$)cos($\gamma$) + sen($\beta$)sen($\gamma$) + i(sen($\beta$)cos($\gamma$) - cos($\beta$)isen($\gamma$))
+\newline
+comparando as partes reais e imaginárias, temos as duas igualdades a seguir:\newline
+cos($\beta$ - $\gamma$) = cos($\beta$)cos($\gamma$) + sen($\beta$)sen($\gamma$) e
+sen($\beta$ - $\gamma$) = sen($\beta$)cos($\gamma$) - cos($\beta$)isen($\gamma$))
+
+\subsection{Provar que sen($\beta$ - $\gamma$) = sen($\beta$) cos($\gamma$) - cos($\beta$) sen($\gamma$), usando o teorema sen($\beta$ + $\gamma$) = sen($\beta$)cos($\gamma$) + cos($\beta$)isen($\gamma$)}
+Podemos escrever
+sen($\beta$ - $\gamma$) = sen($\beta$ + (-$\gamma$)) = sen($\beta$)cos(-$\gamma$) + cos($\beta$)isen(-$\gamma$).
+\newline
+Sabemos que cos(\textit{x}) = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ..., logo 
+cos(\textit{-x}) = 1 - $\frac{(-x)^2}{2!}$ + $\frac{(-x)^4}{4!}$ - $\frac{(-x)^6}{6!}$ + $\frac{(-x)^8}{8!}$ - ...\newline
+cos(\textit{-x}) = 1 - $\frac{x^2}{2!}$ + $\frac{x^4}{4!}$ - $\frac{x^6}{6!}$ + $\frac{x^8}{8!}$ - ..., portanto cos(\textit{x}) = cos(\textit{-x})
+\newline
+De forma análoga,  sen(\textit{x}) = \textit{x} - $\frac{x^3}{3!}$ + $\frac{x^5}{5!}$ - $\frac{x^7}{7!}$ + $\frac{x^9}{9!}$ - ..., logo \newline
+sen(\textit{-x}) = \textit{(-x)} - $\frac{(-x)^3}{3!}$ + $\frac{(-x)^5}{5!}$ - $\frac{(-x)^7}{7!}$ + $\frac{(-x)^9}{9!}$ - ... = \textit{-x} + $\frac{x^3}{3!}$ - $\frac{x^5}{5!}$ + $\frac{x^7}{7!}$ - $\frac{x^9}{9!}$ + ...\newline
+sen(\textit{-x}) = -(\textit{x} - $\frac{x^3}{3!}$ + $\frac{x^5}{5!}$ - $\frac{x^7}{7!}$ + $\frac{x^9}{9!}$ - ...), portanto sen(\textit{-x}) = -sen(\textit{x})
+\newline
+Então teremos cos(-$\gamma$) = cos($\gamma$) e sen(-$\gamma$) = -sen($\gamma$), logo \newline
+sen($\beta$ - $\gamma$) = sen($\beta$)cos($\gamma$) - cos($\beta$)isen($\gamma$)).
+
+
