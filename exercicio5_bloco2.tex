@@ -1,0 +1,13 @@
+Dê exemplo de aplicação do Método de Newton-Raphson em uma função não polinomial.
+
+\subsection{cos(x)}
+A fórmula que descreve o algoritmo do método de Newton-Raphson: $x_{n+1}$ = $x_{n}$ - $\frac{f(x_{n})}{f'(x_n)}$
+\newline
+Ao utilizarmos esse algoritmo para a função \textit{cos(x)} teremos: $x_{n+1}$ = $x_{n}$ + $\frac{cos(x)}{sen(x)}$
+\newline
+Escolhemos a semente $x_0$ = 2.00000000000000000 (17 algarismos significativos) teremos: \newline
+$x_1$ = 1.5423424456397141 \newline
+$x_2$ = 1.5708040082580965 \newline
+$x_3$ = 1.5707963267948966 \newline
+Nesse caso, três iterações foram suficientes para alcançar a precisão desejada, ou seja $x_3$ = $x_4$. \newline
+Obs.: Os cálculos foram obtidos através de programação em javascript. No site geogebra obtivemos o valor de 1.5707963267247. Houve uma diferença a partir da $11^{o}$ algarismo significativo. O objetivo é aplicação didática do método, limitações de recursos da linguagem de programação não foram considerados nesse exercício.
